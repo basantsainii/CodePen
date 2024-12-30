@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sideBar_start_coding::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    /* background: linear-gradient(115deg, rgb(79, 207, 112), rgb(250, 214, 72), rgb(167, 103, 229), rgb(18, 188, 254), rgb(68, 206, 123)); */
+}
+
+.sideBar_start_coding button{
+position: relative;
+z-index: 2;
+    padding: .765rem ;
+    background: #000;
+    border-radius: 3px;
+    margin: auto;
+    width: 100%;
+}
+.sideBar_start_coding{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    padding: 3px;
+    border-radius: 6px;
+    display: block;
+    overflow: hidden;
+}
+.sideBar_start_coding:hover::before{
+animation-name: loop1;
+animation-duration: 0.75s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes loop1{
+    0% {left:0%}
+    100% {left:-100%}
+
+    /* also can use */
+    /* to {
+        transform: translateX(-50%)
+    } */
+}

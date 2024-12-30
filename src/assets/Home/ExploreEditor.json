@@ -1,0 +1,38 @@
+[
+    {
+      "caret": "",
+      "heading": "Support For the Way You",
+      "para": "The CodePen Editor is highly customizable. There is autocomplete and Emmet for speed and accuracy. Plus you can set up smart defaults for starting new work.",
+      "img": "suppport-for-the-way.webp"
+    },
+    {
+      "caret": "",
+      "heading": "Keep Your Pens Private",
+      "para": "Nobody can see your private stuff until you want them to, because they are at secret unguessable, non-searchable, non-indexable URLs.",
+      "img": "keeep-your-pens-private.webp"
+    },
+    {
+      "caret": "",
+      "heading": "Embed Pens",
+      "para": "Completely customize the look of code demos on your own site. Change the look of your site? Just change the theme and all your Embedded Pens change too.",
+      "img": "embrded-pens.webp"
+    },
+    {
+      "caret": "",
+      "heading": "Asset Hosting",
+      "para": "Need to use an image in a Pen? No more awkwardly finding alternate hosting for it, you can drag-and-drop it right onto CodePen and we'll host it for you. And not just images! CSS, JSON files, SVGs, media files, whatever!",
+      "img": "assest-hosting.webp"
+    },
+    {
+      "caret": "",
+      "heading": "Build Entire Projects",
+      "para": "Projects is the most powerful feature of CodePen. It's a full blown IDE right in the browser, with automatic preprocessing, drag and drop uploading, live previews, website deployment, and much more.",
+      "img": "build entire project.webp"
+    },
+    {
+      "caret": "",
+      "heading": "Collab Mode",
+      "para": "Live collaboration on code. Multiple people can type and edit code in a Pen at the same time, all while still seeing the live preview.",
+      "img": "collab mode.webp"
+    }
+  ]
