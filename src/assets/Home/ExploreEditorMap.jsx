@@ -76,7 +76,7 @@ console.log("usedPara is ",usedPara)
             return (                      
               <div key={id} className={`${e.img ? "top-0 opacity-100": "top-full opacity-0"} px-6 right-0 absolute transition-all ease-linear duration-500`}>
                                       {/* can't use ExploreEditorData[id].img  because map fn will not work it not using mapped array  $$$ also position of above div must be absolute so that all images must be sit on one-another   */}
-                <img src={`/src/assets/Home/ExploreEditorImg/${ExploreEditorData[id].img}`} alt="" />
+                <img src={`src/assets/Home/ExploreEditorImg/${ExploreEditorData[id].img}`} alt="" />
                                                               {/* cant use e.img here if using desired transition, transition will not work properly using e.img b/c all other object of mapped array has empty image path */}
               </div>
             );
