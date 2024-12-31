@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Pens from "./Pens.json";
+import image from "./GridPenImages/image.png"
 
 function GridPen() {
   const [onMouse, setOnMouse] = useState();
@@ -65,7 +66,7 @@ function GridPen() {
                   <div className="flex pl-5 mt-2 gap-1 justify-start">
                     <div className="w-11 h-11 rounded-md overflow-hidden back">
                       <img
-                        src="src/assets/Home/GridPenImages/image.png"
+                        src={image}
                         className="w-11"
                         alt=""
                       />
