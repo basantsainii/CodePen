@@ -22,6 +22,15 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
       },
+      keyframes: {
+        trans: {
+          '0%': { top:'100%', opacity:'0' },
+          '100%': { top:'0%', opacity:'1'  },
+        }
+      },
+      animation:{
+        trans: 'trans 1s linear',
+      },
 
     },
   },

@@ -3,10 +3,12 @@ import SideBar from "./SideBar/SideBar";
 import Home from "./Home/Home";
 import { Outlet } from "react-router-dom";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+
 function Root() {
 
 const [headerNav, setHeaderNav] = useState("w-88");
-console.log(headerNav);
+// console.log(headerNav);
 const HeaderWidth =(width)=>{
   setHeaderNav(width)
 }
@@ -19,6 +21,7 @@ const HeaderWidth =(width)=>{
           <Home>
             <Outlet />
           </Home>
+          <Footer></Footer>
         </div>
       </div>
     </>

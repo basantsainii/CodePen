@@ -15,7 +15,7 @@ function Sponsor2() {
                   </h1>
                   <p>For every application or workload, monitoring and observability is critical for reliability and delivering better customer experiences. Browse free technical guidance for AWS observability use cases and access top observability platforms using your AWS account.</p>
                   <div> <br />
-                <a href="/" ><Button name="Get Started" className="px-4 hover:bg-green-600 py-3 bg-green-500 text-black rounded-sm"></Button></a>
+                <Button name="Get Started" className="px-4 hover:bg-green-600 py-3 bg-green-500 text-black rounded-sm"></Button>
               </div>
               </div>
               </a>

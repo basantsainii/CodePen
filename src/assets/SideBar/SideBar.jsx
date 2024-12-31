@@ -50,13 +50,13 @@ function SideBar({HeaderWidth}) {
   return (
     <>
       <header onMouseEnter={ToShowHum} onMouseLeave={ToHideHum} className={`w-[210px] bg-[#1E1F26] text-white hidden ease-linear transition-all duration-300 md:block ${sideBarPos} z-50`}>
-        <div>         
-          <img className="h-[2.2rem] mt-4 mx-auto" src={image} alt=" codePen icon" /> 
-        </div>
+        <a href="/">         
+          <img className="h-[2.2rem] mt-4 mx-auto" src={image} alt="codePen icon" /> 
+        </a>
         <nav>
         <div className=" text-center">
           <p className="text-[0.7rem] text-slate-300 mt-6 mb-3">TRY &nbsp;OUR &nbsp;ONLINE &nbsp;EDITOR</p>
-          <a href="/" className="sideBar_start_coding "><Button className=" " name="Start Coding"/></a>
+          <a href="/" className="sideBar_start_coding "><Button className="" name="Start Coding"/></a>
         </div>
           <ul className="leading-9 py-4 ">
             <li className=" pt-1 px-5 hover:bg-slate-800">Search Pens</li>

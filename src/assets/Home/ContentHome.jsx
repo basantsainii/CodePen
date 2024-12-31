@@ -5,7 +5,6 @@ import ExploreEditor from "./ExploreEditor";
 import FrameWorkGrid from "./FrameWorkGrid";
 import Sponsor2 from "../SPONSOR/Sponsor2";
 import TeamStart from "./TeamStart";
-import Footer from "./Footer";
 import GridPen from "./GridPen";
 function ContentHome() {
   return (
@@ -18,7 +17,6 @@ function ContentHome() {
         <FrameWorkGrid></FrameWorkGrid>
         <Sponsor2></Sponsor2>
         <TeamStart></TeamStart>
-        <Footer></Footer>
       </main>
     </>
   );

@@ -33,7 +33,7 @@ const [showNav, setShowNav] = useState(true)
         <div className="px-2 flex gap-3">
 
           {/* CodePen icon */}
-          <div className="md:hidden w-9 pt-1">
+          <div  className="md:hidden w-9 pt-1">
             <a href="/">
               <svg
                 viewBox="0 0 100 100"
@@ -61,14 +61,18 @@ const [showNav, setShowNav] = useState(true)
         </div>
         {/* sign up and login button */}
         <div className="flex flex-nowrap">
-          <Button
+          <a href="/SignUp">
+            <Button
             name="Sign Up "
-            className="bg-[#46CF73] w-16 md:w-[5.5rem] rounded-[0.285rem]"
+            className="bg-[#46CF73] h-full w-16 md:w-[5.5rem] hover:bg-green-600 hover:text-white rounded-[0.285rem]"
           />
+          </a>
+          <a href="/LogIn">
           <Button
             name="Log In"
-            className="bg-[#262830] w-16 md:w-[5rem] rounded-[0.285rem] text-white"
+            className="bg-[#262830] h-full w-16 md:w-[5rem] hover:bg-slate-600 rounded-[0.285rem] text-white"
           />
+          </a>
         </div>
       </div>
     </>

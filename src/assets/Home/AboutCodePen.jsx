@@ -8,9 +8,9 @@ function AboutCodePen() {
         <svg
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2.3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2.3"
           viewBox="0 0 138 26"
           xmlns="http://www.w3.org/2000/svg"
           title="CodePen"
@@ -45,8 +45,8 @@ function AboutCodePen() {
             </p>
             <p className="lg:text-start text-center">
               <a
-                className="p-2 px-4 text-sm rounded hover:text-white bg-green-500 hover:bg-green-600 "
-                href="/"
+                className="p-2 py-3 px-4 text-sm rounded hover:text-white bg-green-500 hover:bg-green-600 "
+                href="/SignUp"
               >
                 Sign Up For Free
               </a>
@@ -57,53 +57,53 @@ function AboutCodePen() {
           <div className=" lg:w-1/2 w-full lg:p-5 p-10 relative">
             <div className="w-[100%] lg:h-[90%] text-sm h-[300px] lg:ml-auto bg-[#464A54] rounded-xl relative">
               {/* box1 */}
-              <div className="w-[300px] p-2 bg-[#1D1E22] rounded-lg h-[140px] absolute lg:-top-6 top-6 lg:right-6 -left-6">
+              <div className="w-[300px] p-2 bg-[#1D1E20] rounded-lg h-[140px] absolute -top-3 lg:-top-6 sm:top-6 lg:right-6 -left-9 sm:-left-6 shadow-slate-700 shadow-[0px_0px_1px_0px]">
                 <header className="text-gray-300 font-bold w-full flex justify-between">
                   {" "}
                   <p>
                     <i className="fa-solid fa-gear text-gray-500"></i> HTML{" "}
                   </p>
-                  <i class="fa-solid fa-angle-down text-gray-500 "></i>
+                  <i className="fa-solid fa-angle-down text-gray-500 "></i>
                 </header>
                 <div className="text-white">
                   <code>
-                    <span class="text-yellow-600">&lt;div </span> 
-                    <span class="text-yellow-300">class</span><span>=</span>
-                    <span class="text-green-400">"rect"</span>
-                    <span class="text-yellow-600">&gt;&lt;/div&gt;</span></code></div>
+                    <span className="text-yellow-600">&lt;div </span> 
+                    <span className="text-yellow-300">className</span><span>=</span>
+                    <span className="text-green-400">"rect"</span>
+                    <span className="text-yellow-600">&gt;&lt;/div&gt;</span></code></div>
               </div>
               {/* box2 */}
-              <div className="w-[300px] p-2 bg-[#1D1E22] rounded-lg h-[140px] absolute top-32 -right-6">
+              <div className="w-[300px] p-2 bg-[#1D1E22] rounded-lg h-[140px] absolute top-16 -right-9 sm:top-32 sm:-right-6 shadow-slate-700 shadow-[0px_0px_1px_0px]">
                 <header className="text-gray-300 font-bold w-full flex justify-between">
                   {" "}
                   <p>
                     <i className="fa-solid fa-gear text-gray-500"></i> SCSS{" "}
                   </p>
-                  <i class="fa-solid fa-angle-down text-gray-500 "></i>
+                  <i className="fa-solid fa-angle-down text-gray-500 "></i>
                 </header>
                 <div className="text-white">
-                <p class=""><span class="text-yellow-300">.rect</span> <span>{"{"}</span></p>
-                <p class=""><span class="pl-6 text-pink-300">background</span><span>:</span> <span class="text-yellow-300">linear-gradient</span>{"("}</p>
-                <p class=""><span class="pl-12 text-yellow-600">-119deg</span>,</p>
-                <p class=""><span class="pl-12 text-yellow-300">$gray</span> <span class="text-yellow-600">0%</span>,</p>
-                <p class=""><span class="pl-12 text-yellow-300">$dark-gray</span> <span class="text-yellow-600">100%</span>{")"}; {"}"}</p></div>
+                <p className=""><span className="text-yellow-300">.rect</span> <span>{"{"}</span></p>
+                <p className=""><span className="pl-6 text-pink-300">background</span><span>:</span> <span className="text-yellow-300">linear-gradient</span>{"("}</p>
+                <p className=""><span className="pl-12 text-yellow-600">-119deg</span>,</p>
+                <p className=""><span className="pl-12 text-yellow-300">$gray</span> <span className="text-yellow-600">0%</span>,</p>
+                <p className=""><span className="pl-12 text-yellow-300">$dark-gray</span> <span className="text-yellow-600">100%</span>{")"}; {"}"}</p></div>
                 
               </div>
               {/* box3 */}
-              <div className="w-[300px] p-2 bg-[#1D1E22] rounded-lg h-[140px] absolute lg:top-72 xl:top-76 top-44 md:right-[20%] xl:right-[20%] right-[10%]">
+             <div className="w-[300px] p-2 bg-[#1D1E24] rounded-lg h-[140px] absolute md:top-68 lg:top-72 xl:top-76 top-48 sm:top-52 md:right-[30%] right-[5%] sm:right-[40%] shadow-slate-700 shadow-[0px_0px_1px_0px]">
                 <header className="text-gray-300 font-bold w-full flex justify-between">
                   {" "}
                   <p>
                     <i className="fa-solid fa-gear text-gray-500"></i> JS{" "}
                   </p>
-                  <i class="fa-solid fa-angle-down text-gray-500"></i>
+                  <i className="fa-solid fa-angle-down text-gray-500"></i>
                   
                 </header>
                 <div className="text-white">
-                <span class="text-yellow-300">var</span> <span class="text-blue-400">colors</span> =
-                [<span class="text-green-500">"#74B087"</span>,<span class="text-green-500">"#DE7300"</span>,<span class="text-green-500">"#74B087"</span>];
+                <span className="text-yellow-300">var</span> <span className="text-blue-400">colors</span> =
+                [<span className="text-green-500">"#74B087"</span>,<span className="text-green-500">"#DE7300"</span>,<span className="text-green-500">"#74B087"</span>];
                 <br /><br /><br />
-                <span class="text-yellow-300">function</span> <span class="text-blue-400">animate</span>{"() {}"};
+                <span className="text-yellow-300">function</span> <span className="text-blue-400">animate</span>{"() {}"};
                 </div>
               </div>
             </div>

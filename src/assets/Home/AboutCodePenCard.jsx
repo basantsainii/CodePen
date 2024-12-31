@@ -63,7 +63,7 @@ function AboutCodePenCard() {
         </div>
         {/* theme images */}
         <div className="absolute bottom-0 -left-32 w-[40%]">
-          <img src="https://cpwebassets.codepen.io/assets/packs/lines-4-4ea88270d73b7f6eaaa69e91aed97ddf.svg" alt="" classname=""></img>
+          <img src="https://cpwebassets.codepen.io/assets/packs/lines-4-4ea88270d73b7f6eaaa69e91aed97ddf.svg" alt="" className=""></img>
         </div>
       </div>
     </>

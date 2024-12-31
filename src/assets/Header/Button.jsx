@@ -1,7 +1,10 @@
 function Button(prop) {
   return (
     <>
-      <button type="submit" onClick={prop.fn} className={`mx-1 ${prop.className}`}>{prop.name}</button>
+    
+    <button type="submit"  className={`mx-1  ${prop.className}`} value={prop.name} >{prop.name}</button>
+    
+      
     </>
   )
 }

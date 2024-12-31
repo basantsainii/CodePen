@@ -36,7 +36,7 @@ function FrameWorkGrid() {
         </div>
 {/* box 4 */}
         <div className=" p-6  text-center content-center relative hover:text-white hover:scale-105 transition ease-linear duration-200 bg-[#2C303A] rounded-lg  shadow-state hover:shadow-[0px_0px_0px_0px]">
-        <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" x1="0%" y1="0%" y2="100%"><stop offset="0" stop-color="#2383ae"></stop><stop offset="1" stop-color="#6dd7b9"></stop></linearGradient><path d="M10 8c1.333-5.333 4.667-8 10-8 8 0 9 6 13 7 2.667.667 5-.333 7-3-1.333 5.333-4.667 8-10 8-8 0-9-6-13-7-2.667-.667-5 .333-7 3zM0 20c1.333-5.333 4.667-8 10-8 8 0 9 6 13 7 2.667.667 5-.333 7-3-1.333 5.333-4.667 8-10 8-8 0-9-6-13-7-2.667-.667-5 .333-7 3z" fill="url(#a)" transform="translate(4 12)"></path></svg>
+        <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" x1="0%" y1="0%" y2="100%"><stop offset="0" stopColor="#2383ae"></stop><stop offset="1" stopColor="#6dd7b9"></stop></linearGradient><path d="M10 8c1.333-5.333 4.667-8 10-8 8 0 9 6 13 7 2.667.667 5-.333 7-3-1.333 5.333-4.667 8-10 8-8 0-9-6-13-7-2.667-.667-5 .333-7 3zM0 20c1.333-5.333 4.667-8 10-8 8 0 9 6 13 7 2.667.667 5-.333 7-3-1.333 5.333-4.667 8-10 8-8 0-9-6-13-7-2.667-.667-5 .333-7 3z" fill="url(#a)" transform="translate(4 12)"></path></svg>
           <h3 className="absolute bottom-3 text-center left-0 w-full">Tailwind</h3>
         </div>
 {/* box 5 */}
@@ -158,8 +158,8 @@ function FrameWorkGrid() {
               d="M215.2 58.82c5.29 3.46 18.53 6.72 22.2 7.33 3.66.81 9.57-3.87 12.42-5.09 3.06-1.43 8.35-2.24 14.46 3.26.62.61-1.42 3.25-1.42 3.25a22.51 22.51 0 0 1-3.06-1 9.19 9.19 0 0 0-5.5-1.23C244.12 66.56 242.49 70 233.53 68s-11.21-3.67-20-3.26"
               fill="#88ce02"
               stroke="#000"
-              stroke-linejoin="round"
-              stroke-width="1.59"
+              strokeLinejoin="round"
+              strokeWidth="1.59"
             ></path>
             <path
               d="M213.36 59.43c6.72 2.85 19.76 5.9 23.43 6.72s9.57-2.85 12.42-4.69c5.09-3.26 11.61-.61 14.67 2.86 2 2.24 2.85 3.66 2.85 4.27 0 .82-2.44 0-2.44 0-1.43-.61-3.06-.81-4.28-1.63-1.63-.81-3.26-2-5.7-1.83-10.19 1.22-12.23 4.68-21 2.65s-11-3.87-20.37-3.26"
