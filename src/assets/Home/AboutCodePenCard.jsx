@@ -5,7 +5,7 @@ function AboutCodePenCard() {
     <>
       <div className="flex lg:flex-row flex-col px-4 justify-center gap-4 relative">
         {/* box 1 */}
-        <div className="bg-[#2C303A] relative z-10 my-12 lg:w-[32%] w-full p-6 rounded-xl">
+        <div className="bg-[#2C303A] relative z-10 my-12 lg:w-[32%] w-full p-6 rounded-xl anima">
           <div className="w-[60px] h-[60px] relative rounded-md mb-5 -mt-16 bg-black p-3">
             <img
               className=""

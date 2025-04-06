@@ -25,7 +25,7 @@ export default {
       keyframes: {
         trans: {
           '0%': { top:'100%', opacity:'0' },
-          '100%': { top:'0%', opacity:'1'  },
+          '100%': { top:'0%', opacity:'1' },
         }
       },
       animation:{
